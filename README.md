@@ -5,3 +5,5 @@
 0.3 per indicare i centesimi bisogna mettere il . (es. 10.99,0.99)
 0.4 il codice che generera il bot è casuale
 0.5 il codice qr se scansionato mostrera le info della ricevuta
+0.6 il codice è open source, perciò non è rivendibile 
+0.7 non spacciare il codice per proprio
