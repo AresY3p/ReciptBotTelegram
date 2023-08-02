@@ -32,11 +32,11 @@ def send_receipt_telegram(bot_token, chat_id):
     bot = Bot(bot_token)
     bot.send_photo(chat_id=chat_id, photo=open('receipt.png', 'rb'))
 
-bot_token = '6682204587:AAHck3mFNFDRfZ_grIcyEdaSzJTqIZZFhM8'
-chat_id = '5488420947'
-product_name = input("Inserisci il nome del prodotto: ")
-product_quantity = int(input("Inserisci la quantità venduta: "))
-product_price = float(input("Inserisci il prezzo del prodotto: "))
+bot_token = 'qua metti il token del bot'
+chat_id = 'qua metti l'id della persona/chat dove deve essere inviata la ricevuta'
+product_name = input("Inserisci il nome del prodotto: ") 
+product_quantity = int(input("Inserisci la quantità venduta: ")) 
+product_price = float(input("Inserisci il prezzo del prodotto: ")) 
 payment_method = input("Inserisci il metodo di pagamento: ")
 product_info = {
     'name': product_name,
@@ -46,3 +46,5 @@ product_info = {
 }
 create_receipt(product_info)
 send_receipt_telegram(bot_token, chat_id)
+
+# NON MODIFICARE NULLA NEL CODICE (AMMENOCHè NON SAI QUELLO CHE FAI)
