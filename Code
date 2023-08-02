@@ -48,3 +48,4 @@ create_receipt(product_info)
 send_receipt_telegram(bot_token, chat_id)
 
 # NON MODIFICARE NULLA NEL CODICE (AMMENOCHè NON SAI QUELLO CHE FAI)
+# CODICE CREATO INTERAMENTE DA @ARESY3P SU TELEGRAM
