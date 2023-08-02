@@ -1,5 +1,10 @@
  Salve a tutti, qua sotto mettero tutte le info sul bot
 
+- A COSA SERVE:
+
+- il codice servira a far mandare una ricevuta elettronica tramite il bot
+
+
 1. Il bot invia la ricevuta solo se l'utente a cui volete inviare la ricevuta ha gia avviato il bot 
 2. in "inserisci quantita venduta" possono essere inseriti solo numeri
 3. per indicare i centesimi bisogna mettere il . (es. 10.99,0.99)
